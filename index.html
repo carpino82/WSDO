@@ -1,49 +1,65 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>box-model</title>
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<style>
-aside, article, section, header, footer, nav {
-	display: block;
-}
-div, p {
-	margin: 0;
-	padding:0;
-}
-html {
-	background: #ccc;
-}
-.outer {
-	width: 400px;
-	margin: 0 auto;
-	background: #9CF;
-	padding: 1px;
-}
-p {
-	background: #EEA458;
-	height: 100%;
-}
-/*add styles here*/
-.box{
-	background: #B7D19C;
-	width: 300px;
-	height: 300px;
-	padding: 25px;
-	border: 2px solid black;
-	margin: 25px;
-}
-</style>
+	<meta charset="utf-8">
+	<title>The Great Wall of Peter</title>
 </head>
 <body>
-<div class="outer">
-<div class="box">
-<p>The box model describes the physical properties of each element on your page. Margins, borders, padding, and content all make up an element's box. In this case, the inner div tag's margins can be seen with the blue color, the border is black, the padding is represented by orange, and the element's width and height are yellow.
-</p>
-</div>
-</div>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="facts.html">facts</a></li>
+				<li><a href="quotes.html">quotes</a></li>
+				<li><a href="gallery.html">gallery</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+<h1>Great Wall of Peter</h1>
+<img src="_images/pgLarge.png" width="247" height="359" alt="Photo of Peter Griffin Smiling." title="Peter Griffin">
+
+	<section>
+		<h2>Why does this page exist?</h2>
+		<p>This page is for die hard or not so die hard <span>Peter Griffin</span> fans, if you don't know who Peter Grffin is you are <strong>REALLY</strong> missing out. Here you will find some fun facts about Peter Griffin and maybe learn something new or made up and completely fictional like the Peter Griffin character. Also included are some of my favorite Peter quotes that will make you laugh out loud(LOL). Finally, I have put on display some great Peter Griffin photos which you may or may not find completely distasteful, so enjoy and feel free <strong>NOT</strong> to sue me for anything on this site. </p>
+	</section>
+	
+	<div id="facts">
+		<h2>Facts about Peter</h2>
+			<ul>
+				<li><p><strong>Full Name:</strong> Peter Löwenbräu Griffin</p></li>
+				<li><p><strong>Place of birth:</strong> Mexico</p></li>
+				<li><p><strong>Ethnicity: </strong>Irish American</p></li>
+				<li><p><strong>Married to:</strong> Lois Griffin</p></li>
+				<li><p><strong>Children: </strong>Stewie Griffin,Meg Griffin,Chris Griffin,Bertram Griffin (through sperm donation)</p></li>
+				<li><p><strong>Siblings: </strong>Thaddeus Griffin</p></li>
+				<li><p><strong>Created and Voiced by:</strong> Seth McFarlane</p></li>
+			</ul>
+	</div>
+	
+	<article>
+		<h2>Top 5 Peter Quotes</h2>
+		<p>In my opinion :)</p>
+		<ol>
+			<li>"You'd better watch who you're calling a child, Lois. Because if I'm a child, you know what that makes you? A Pedophile. And I'll be damned if I'm gonna be lectured by a pervert."</li>
+			<li>"Woah, woah, woah, woah, woah, woah, woah, woah, woah, woah, woah, woah... Lois, this is not my Batman glass."</li>
+			<li>"I've got an idea--an idea so smart that my head would explode if I even began to know what I'm talking about."</li>
+			<li>"Buttscratcher! Buttscrather! Buttscratcher!"</li>
+			<li>"Now I may be an idiot, but there is one thing I am not, sir, and that, sir, is an idiot."</li>
+		</ol>
+	</article>
+	
+	<div id="gallery">
+		<h2>Gallery of Peter</h2>		
+		<p>Photos where gathered from various sources and I do not claim any ownership of photos.</p>
+		<img src="_images/pgBatman.jpeg" width="150" height="150" alt="Peter Griffin dressed as Batman" title="Bat Peter">
+		<img src="_images/pgCarbon.gif" width="150" height="150" alt="Peter Griffin in carbonite" title="Frozen Peter">
+		<img src="_images/pgLookaLike.jpg" width="150" height="150" alt="Peter Griffin Look a Like" title="Guy who looks like Peter">
+	</div>
+	
+	<footer>
+		<p>This site was created for education purposes only, so here is an awesome footer to enjoy &copy; 2012</p>
+	</footer>
 </body>
+
 </html>
